@@ -1,0 +1,36 @@
+{
+  "name": "node-soundtouch",
+  "version": "0.2.0",
+  "description": "BOSE® SoundTouch™ Node.js® library",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "es6-promise": "^2.1.1",
+    "websocket": "^1.0.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisScheffler/node-soundtouch.git"
+  },
+  "keywords": [
+    "BOSE",
+    "SoundTouch",
+    "managment",
+    "discovery",
+    "upnp",
+    "mdns"
+  ],
+  "author": "Christian Scheffler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisScheffler/node-soundtouch/issues"
+  },
+  "homepage": "https://github.com/ChrisScheffler/node-soundtouch"
+}
