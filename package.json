@@ -2,14 +2,16 @@
   "name": "node-soundtouch",
   "version": "0.2.0",
   "description": "BOSE® SoundTouch™ Node.js® library",
-  "main": "index.js",
+  "main": "lib/st.js",
   "directories": {
     "example": "examples"
   },
   "dependencies": {
     "debug": "^2.2.0",
     "es6-promise": "^2.1.1",
-    "websocket": "^1.0.18"
+    "websocket": "^1.0.18",
+    "ws": "^0.7.2",
+    "xml2js": "^0.4.8"
   },
   "devDependencies": {},
   "scripts": {
